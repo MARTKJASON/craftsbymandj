@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/checkout.css">
+    <title>Place Order</title>
+  </head>
+  <body>
+    <div class="shopname">
+      <h1>Crafts By M & J</h1>
+    </div>
+
+    <button  class="return" ><a href="./mycart.html">Go back to cart</a></button>
+    <h1>Checkout</h1><br>
+    <div class="billingdetails">
+      
+    
+     <form action="">
+        <h3 class="info">Billing Details</h3>
+
+        <div class="lastname">
+            <span>Last name</span><br>
+            <input type="text" placeholder="Last name" id="lastName" required/>
+          </div>
+          <div class="firstname">
+            <span>First Name</span><br>
+            <input type="text" placeholder="First Name" required/>
+          </div>
+          <div class="email">
+            <span>Email</span><br>
+            <input type="email" placeholder="Email" required/>
+          </div>
+    
+          <div class="postcode">
+            <span>Postcode</span><br>
+            <input type="number" placeholder="Postcode" required>
+          </div>
+      <div class="address">
+        <span>Address</span><br>
+        <input type="text" placeholder="Address" required>
+      </div>
+      <div class="phonenumber">
+        <span>Phone Number</span><br>
+        <input type="number" placeholder="Phone Number" required>
+      </div>
+      <div class="notes">
+        <span>Notes on Delivery</span><br>
+        <textarea name="" id="note" cols="80" rows="10" placeholder="Notes  for the Rider."></textarea>
+       
+       <br> <br>
+
+    
+  </div>
+    </div>
+
+    <div class="order">
+        <h1> Order Summary </h1>
+        <div class="product">
+            <h4>Items :</h4> <ul id="cart-items"></ul>
+       
+           <div class="shipping">
+            <p > <strong> Delivery Fee : </strong> <span>Free Delivery</span> </p> 
+           </div>
+           <div class="Total">
+            <p><strong>Total : </strong><span id="cart-price"></span></p>
+           </div>
+           <div class="MOP">
+            <input type="radio" id="radio" name="MOD" value="HTML">
+          <label for="COD">Cash on Delivery</label><br>
+          <input type="radio" id="Gcash" name="MOD" value="Gcash">
+          <label for="Gcash">Gcash</label><br>
+           </div>
+        </div>
+        <br><br>
+        <button type="submit" class="placeOrder">Place Order</button>
+     <br>
+     <br>
+    </form>
+    </div>
+  
+    <script>
+
+        const jsonData = localStorage.getItem("localItems");
+      
+      const localItems = JSON.parse(jsonData);
+      
+      console.log(localItems)
+      let html = "";
+      for (let i = 0; i < localItems.length; i++) {
+        html += ` <span">${localItems[i].name} => ₱ ${localItems[i].price} </ul> <br>`;
+
+        let cartItems = JSON.parse(localStorage.getItem("localItems"));
+        let totalPrice = 0;
+        cartItems.forEach(function (item) {
+         document.getElementById("cart-price").innerHTML = `₱ ${totalPrice += item.price}`
+      // totalPrice += item.price;
+      });
+      console.log("Total Price: " + totalPrice);
+      
+      }
+      document.getElementById("cart-items").innerHTML = html;
+
+      
+          </script>
+  </body>
+</html>

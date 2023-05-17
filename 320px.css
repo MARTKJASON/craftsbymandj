@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,700&family=Poppins:ital@1&display=swap');
+
+  @media (min-width:375px) and (max-width:480px) { 
+
+    html, body{
+        padding: 0;
+        margin: 0;
+        background-color: #CCD5AE;
+    }
+    
+    .shopname{
+    
+        width: 100vw;
+    
+        background-color: #CCD5AE;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        position: fixed;
+        /* border-bottom: 2px solid black; */
+       
+        
+    
+    }
+
+    .shopname h1{
+        padding-left: 15%;
+        padding-bottom: 31px;
+        font-family: 'Josefin Sans', sans-serif;
+    
+     
+    }
+    
+    .header{
+        padding-left:4% ;
+        
+    }
+    .header>div{
+        list-style: none;
+        
+
+        margin-right: 15px;
+    
+    
+    
+    
+    }
+    .header>div a{
+        text-decoration: none;
+    }
+    
+    .header>div .btn{
+        font-family: 'Poppins', sans-serif;
+        border-style: none;
+        background-color: #CCD5AE;
+        font-size: 20px;
+
+        text-decoration: none;
+    
+    }
+    .header>div .btn:hover{
+        font-family: 'Poppins', sans-serif;
+        border-style: none;
+    
+        font-size: 22px;
+        color: #A9907E;
+        font-weight:bolder;
+        position: static;
+    
+    }
+    
+    .mycart{
+    
+        float: right;
+        margin-right: 120px;
+        margin-top: -30px;
+        
+    }
+    .mycart button{
+        width: 100px;
+    }
+    .allproducts{
+    
+        margin-left: 80px;
+        padding-top: 10em;
+        font-family: 'Poppins', sans-serif;
+    
+     
+    }
+    .all h1{
+        text-align: center;
+    }
+    
+    
+    .category{
+     margin-left: 40px;
+    
+    }
+    
+    .category h1{
+    
+        padding: 20px;
+    
+    
+    }
+    .category ul li{
+    
+        list-style: none;
+        display: inline-block;
+        padding: 40px;
+    }
+    
+    .shopname img{
+        height: 29px;
+        width: 29px;
+        float: right;
+        background-color: #CCD5AE;
+        border: none;
+    }
+    .shopname button{
+    
+        background-color: #CCD5AE;
+        border: none;
+    }
+    .shopname img:hover{
+        height: 35px;
+        width: 35px;
+        background-color: #CCD5AE;
+        border: none;
+    }
+    
+    
+    .cart{
+        margin-left: 15%;
+        margin-top: 150px;
+    }
+    .carts ul  {
+        padding: 15px;
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 5%;
+    
+        
+    }
+    .carts ul  button {
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        padding: 5px;
+        height: 25px;
+    
+        
+    }
+    .allproducts ul li button{
+     
+        width:200px;
+        height: 30px;
+        border: 1px solid black;
+        background-color: #CCD5AE;
+        
+    }
+    .allproducts ul li button:hover{
+     
+    
+        background-color: #000000;
+        color: #fff;
+        
+    }
+    
+    .allproducts ul li button:focus{
+     
+    
+    
+        background-color: #26db38;
+        color: #ffffff;
+        
+    }
+    
+    .allproducts ul li .removeData{
+     
+    
+        background-color: #ff0000;
+        color: #ffffff;
+        border: #ffffff;
+        width: 100px;
+        margin-right: 10rem;
+        
+    }
+    
+    .carts ul li {
+    
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 10px;
+        width: 460px;
+      
+    
+        
+        
+    }
+    .placeOrder{
+        width: 17rem;
+        align-items: center;
+        background-color: #06f;
+        border: 2px solid #06f;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-flex;
+        fill: #000;
+        font-family: Inter,sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        height: 48px;
+        justify-content: center;
+        letter-spacing: -.8px;
+        line-height: 24px;
+        min-width: 140px;
+        outline: 0;
+        padding: 0 17px;
+        text-align: center;
+        text-decoration: none;
+        transition: all .3s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+      
+      .placeOrder:focus {
+        color: #171e29;
+      }
+      
+      .placeOrder:hover {
+        background-color: #3385ff;
+        border-color: #3385ff;
+        fill: #06f;
+      }
+      
+      .placeOrder:active {
+        background-color: #3385ff;
+        border-color: #3385ff;
+        fill: #06f;
+      }
+      
+      @media (min-width: 768px) {
+        .button-58 {
+          min-width: 170px;
+        }
+      }
+    
+  }

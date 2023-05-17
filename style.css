@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,700&family=Poppins:ital@1&display=swap');
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+}
+
+.shopname{
+
+    width: 100vw;
+    margin-top: -30px;
+    background-color:#fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: fixed;
+    /* border-bottom: 2px solid black; */
+   
+    
+
+}
+.shopname h1{
+     padding-left: 43%;
+     padding-bottom: 30px;
+     font-family: 'Josefin Sans', sans-serif;
+
+ 
+}
+
+.header{
+    padding-left:20% ;
+    background-color: #000;
+   
+    
+}
+.header>div{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+
+
+
+
+}
+
+.header>div .btn{
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+ 
+    text-decoration: none;
+
+}
+.header>div .btn a{
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+ 
+    text-decoration: none;
+
+}
+
+.header>div .btn:hover {
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    background-color: #ffffff;
+    font-size: 22px;
+    color: #000000;
+    font-weight:bolder;
+    position: static;
+
+    text-decoration: none;
+}
+
+.header>div .btn a:hover {
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    background-color: #ffffff;
+    font-size: 22px;
+    color: #000000;
+    font-weight:bolder;
+    position: static;
+
+    text-decoration: none;
+}
+.mycart{
+
+    float: right;
+    margin-right: 120px;
+    margin-top: -30px;
+    
+}
+.mycart button{
+    width: 100px;
+}
+.allproducts{
+
+    margin-left: 80px;
+    padding-top: 10em;
+    font-family: 'Poppins', sans-serif;
+
+ 
+}
+.all h1{
+    text-align: center;
+}
+
+
+.category{
+ margin-left: 40px;
+
+}
+
+.category h1{
+
+    padding: 20px;
+
+
+}
+.category ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 40px;
+}
+
+.shopname img{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    margin-top: -22px;
+    border: none;
+}
+.shopname button{
+
+    background: none;
+    border: none;
+}
+.shopname img:hover{
+    height: 35px;
+    width: 35px;
+    border: none;
+}
+
+
+.cart{
+    margin-left: 15%;
+    margin-top: 150px;
+}
+.carts ul  {
+    padding: 15px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5%;
+
+    
+}
+.carts ul  button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px;
+    height: 25px;
+
+    
+}
+.allproducts ul li button{
+ 
+    width:200px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    
+}
+.allproducts ul li button:hover{
+ 
+
+    background-color: #000000;
+    color: #fff;
+    
+}
+
+
+
+.allproducts ul li .removeData{
+ 
+
+    background-color: #ff0000;
+    color: #ffffff;
+    border: #ffffff;
+    width: 100px;
+    margin-right: 10rem;
+    
+}
+
+.carts ul li {
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    width: 460px;
+  
+
+    
+    
+}
+.placeOrder{
+    width: 17rem;
+    align-items: center;
+    background-color: #06f;
+    border: 2px solid #06f;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+  }
+  .placeOrder a{
+    text-decoration: none;
+    color: #fff;
+   }
+  .placeOrder:focus {
+    color: #171e29;
+  }
+  
+  .placeOrder:hover {
+    background-color: #3385ff;
+    border-color: #3385ff;
+    fill: #06f;
+  }
+  
+  .placeOrder:active {
+    background-color: #3385ff;
+    border-color: #3385ff;
+    fill: #06f;
+  }
+  
+  @media (min-width: 768px) {
+    .button-58 {
+      min-width: 170px;
+    }
+  }
+  
+  @media (min-width:320px)  { 
+
+    
+  }
+
+  #Promos h1{
+
+    margin-top: 175px;
+    margin-left: 35%;
+  }

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafts by M & J</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+   
+    <script src="./test.js"></script>
+    <!-- <script src="./test.js"></script> -->
+    <div class="shopname">
+        <h1>Crafts By M & J</h1>
+        <div class="mycart">
+            <button  class="btn" >
+                <a href="/mycart.html">
+            <img src="./assets/shopping-cart.png" alt="cart">
+            <span id="itemNum"></span>
+               </a>
+           </button>
+    </div>
+    <div class="header">
+        <div class="home"><button  class="btn" onclick="home()">All Items</button></div>
+        <div class="crochet"><button  class="btn" onclick="crochet()">Crochet </button></div>
+        <div class="rings"><button class="btn" onclick="rings()"> Rings </button></div>
+        <div class="Shorts"><button  class="btn" onclick="taslan()">Taslan Shorts and Socks </button></div>
+        <div class="Promos and Bundles"><button class="btn" onclick="promos()"> Promos and Bundles </button></div>
+    </div>
+    
+    </div>
+<div class="allproducts">
+    <div class="all" id="home">
+        <h1>All Items</h1>
+    </div>
+    <div class="product">
+
+       
+        <div class="category" id="crochet" >
+            
+            <h1>Flower Crochet</h1>
+           <ul>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 1',1299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 2', 1299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 3', 1299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 4', 1299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 5', 1299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 6', 1299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 123',178)">Add to Cart</button>
+      
+        </li>
+            
+           </ul>
+      
+       
+            <h1>Tops Crochet</h1>
+        <ul>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 23',189)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet Item 28',1299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Crochet',189)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet',299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet item ',299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet item 2b',299)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet',299)">Add to Cart</button>
+      
+        </li>
+           </ul>
+        </div>
+    </div>
+     <div class="product2"  >
+      
+        <div class="category" id="rings">
+            <h1>Rings</h1>
+            <h1>Women Rings</h1>
+            <ul>
+                <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+                <p>₱ 399.00</p>
+                <p>This is a sample caption</p>
+                
+
+                <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+          
+            </li>
+                <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+                <p>₱ 399.00</p>
+                <p>This is a sample caption</p>
+                
+
+                <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+          
+            </li>
+                <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+                <p>₱ 399.00</p>
+                <p>This is a sample caption</p>
+                
+
+                <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+          
+            </li>
+                <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+                <p>₱ 399.00</p>
+                <p>This is a sample caption</p>
+                
+
+                <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+          
+            </li>
+                <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+                <p>₱ 399.00</p>
+                <p>This is a sample caption</p>
+                
+
+                <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+          
+            </li>
+                <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+                <p>₱ 399.00</p>
+                <p>This is a sample caption</p>
+                
+
+                <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+          
+            </li>
+                <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+                <p>₱ 399.00</p>
+                <p>This is a sample caption</p>
+                
+
+                <button onclick="addToCart('Adjustable Couple Ring', 399 )">Add to Cart</button>
+          
+            </li>
+            </ul>           
+            <h1>Couple Rings</h1>
+        <ul>
+            <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 399.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 399.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 399.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 399.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 399.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 399.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/ring sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 399.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adjustable Couple Ring', 399)">Add to Cart</button>
+      
+        </li>
+           </ul>
+        </div>
+        </div>
+        <div class="product3" id="taslan">
+            
+            <div class="category" >
+                <h1>Shorts and Socks</h1>
+                <h1>Shorts</h1>
+        <ul>
+            <li><img src="./assets/short sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 189.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Nike Short variant 1', 189)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/short sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 189.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Nike Short variant 2', 189)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/short sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 189.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Nike Short variant 3', 189)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/short sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 189.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adidas Short variant 1', 189)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/short sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 189.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adidas Short variant 2', 189)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/short sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 189.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Adidas Short variant 3', 189)">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/short sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 189.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Kobe Short variant 1', 189)">Add to Cart</button>
+      
+        </li>
+           </ul>
+
+                <h1>Socks</h1>
+        <ul>
+            <li><img src="./assets/socks sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet')">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/socks sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet')">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/socks sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet')">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/socks sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet')">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/socks sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet')">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/socks sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet')">Add to Cart</button>
+      
+        </li>
+            <li><img src="./assets/socks sample.jpg" alt="image" height="200px" width="200px"><br>
+            <p>₱ 1299.00</p>
+            <p>This is a sample caption</p>
+            
+
+            <button onclick="addToCart('Flower Crochet')">Add to Cart</button>
+      
+        </li>
+           </ul>
+            </div>
+
+     </div>
+
+  
+
+     <div class="product4" id="Promos">
+
+        <h1>No Promos available yet.</h1>
+  
+     </div>
+
+
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+body , html{
+      margin: 0;
+      padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.image img{
+    padding-left: 9%;
+}
+.login{
+    height: 300px;
+    width: 450px;
+    align-items: center;
+    margin-top: 3%;
+    margin-right: 5%;
+    float: right;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: antiquewhite; */
+    padding: 40px;
+    display: none;
+  
+}
+.login h3 {
+    padding-left: 70px;
+    font-size: 25px;
+}
+.username , .password{
+    font-size: 12px;
+}
+.login input[type="text"]{
+
+    outline: none;
+    width: 250px;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.login input[type="password"]{
+
+    outline: none;
+    width: 250px;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.login input[type="submit"]{
+
+  
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.login input[type="submit"]:hover,
+.login input[type="submit"]:focus {
+  background-color: #07c;
+}
+
+.login input[type="submit"]:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.login input[type="submit"]:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.sign-up {
+    
+    
+    background-color: #ff5900;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin-left: 80px;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .sign-up:hover,
+  .sign-up:focus {
+    background-color: rgb(206, 91, 15);
+  }
+  
+  .sign-up:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .sign-up:active {
+    background-color: #0064bd;
+    box-shadow: none;
+  }
+
+
+  /* Register */
+
+  .signup{
+    height: 300px;
+    width: 450px;
+    align-items: center;
+    margin-top: 3%;
+    margin-right: 5%;
+    float: right;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: antiquewhite; */
+    padding: 40px;
+
+  
+}
+.signup h3 {
+    padding-left: 70px;
+    font-size: 25px;
+}
+.username, .password{
+    font-size: 12px;
+    color: #0064bd;
+}
+.signup input[type="text"]{
+
+    outline: none;
+    width: 250px;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.signup input[type="password"]{
+
+    outline: none;
+    width: 250px;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.signup input[type="submit"]{
+
+  
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.signup input[type="submit"]:hover,
+.signup input[type="submit"]:focus {
+  background-color: #07c;
+}
+
+.signup input[type="submit"]:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.signup input[type="submit"]:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.log-in {
+    
+    
+    background-color: #ff5900;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin-left: 80px;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    color: aliceblue;
+  }
+  
+  .log-in:hover,
+  .log-in:focus {
+    background-color: rgb(206, 91, 15);
+  }
+  
+  .log-in:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .log-in:active {
+    background-color: #0064bd;
+    box-shadow: none;
+  }

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+html , body {
+    padding: 0;
+    margin: 0;
+}
+
+
+ h1 {
+
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-align: center;
+   
+
+ } 
+ 
+ .date {
+   font-family: "JetBrains Mono",monospace;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+
+ }
+
+ input[type=date]{
+
+   width: 120px;
+   outline: none;
+   font-family: 'Poppins', sans-serif;
+
+ }
+
+ form {
+   display: inline-block;
+   text-align: left;
+   margin-left: 5%;
+   padding: 50px;
+   padding-top: 10px;
+   padding-bottom: 23px;
+   position: fixed;
+
+background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 12.5px );
+border-radius: 10px;
+
+ }
+
+ form input[type=submit]{
+      
+    border: 3px solid white;
+    margin-top: 7px;
+
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+form input[type=submit]:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+form input[type=submit]:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+form input[type=submit]:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+ .title {
+       
+    font-family: "JetBrains Mono",monospace;
+      
+ }
+
+ textarea {
+
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    
+
+    
+ }
+ 
+.report{
+    float: right;
+    border: none !important; 
+    padding: 37px !important;
+    margin-bottom: 40px !important;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    height: auto;
+    min-height: 300px;
+    width: 800px;
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#reports{
+  
+
+   margin-right: 5%;
+
+}
+
+
+.title2{
+ 
+    font-weight: 400;
+}
+
+.reportcontainer{
+
+   width: auto;
+   height: auto;
+}
+.reportcontainer h2 {
+
+   font-family: "JetBrains Mono",monospace;
+ 
+}
